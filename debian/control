@@ -1,0 +1,13 @@
+Source: subtitld
+Section: utils
+Priority: optional
+Maintainer: HamoniKR <pkg@hamonikr.org>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+
+Package: subtitld
+Architecture: all
+Depends: ffmpeg,
+         libmpv1
+Description: Subtitle Editor
+ 영상의 자막을 편집하는 프로그램.
