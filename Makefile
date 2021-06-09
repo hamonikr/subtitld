@@ -1,7 +1,7 @@
 all: build
 
 build: buildmo
-	sudo python3 -m pip install -r src/requirements.txt
+	python3 -m pip install -r src/requirements.txt
 buildmo:
 	@echo "Building translation files"
 	# WARNING: the second sed below will only works correctly with the languages that don't contain "-"
@@ -10,11 +10,11 @@ buildmo:
 		lrelease $$file $$qmfile; \
 	done \
 
-run:
+run: build buildmo
 	cd src; \
 	python3 subtitld.py
 
 uninstall:
-	sudo python3 -m pip uninstall -r src/requirements.txt
+	python3 -m pip uninstall -r src/requirements.txt
 clean:
 	rm -f src/locale/*.qm

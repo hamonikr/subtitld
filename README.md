@@ -13,10 +13,9 @@ https://subtitld.jonata.org/install
 
 ## run from source
 ```
-git clone
+git clone https://github.com/hamonikr/subtitld.git
 
 make run
-
 ```
 
 
