@@ -8,8 +8,10 @@ An open source software to create, edit and transcribe subtitles. It is able to 
 
 ![app](app.png)
 
-## 설치
-https://subtitld.jonata.org/install
+## 프로그램 설치
+아래 링크에서 제공하는 파일을 다운로드 받아서 설치합니다.
+
+* https://subtitld.jonata.org/install
 
 ## run from source
 ```
@@ -17,7 +19,6 @@ git clone https://github.com/hamonikr/subtitld.git
 
 make run
 ```
-
 
 
 ## Getting Started
