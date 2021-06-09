@@ -1,2 +1,4 @@
-usr
+src/graphics/subtitld.png usr/share/icons/hicolor/128x128/apps
+subtitld.desktop usr/share/applications
+subtitld-start usr/local/bin
 src/* opt/subtitld

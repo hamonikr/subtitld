@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Subtitld
+Name[ko]=자막 편집기 Subtitld
+Exec=subtitld-start
+Icon=subtitld
+Categories=Multimedia;
+Comment=Create and edit subtitles
+Terminal=false
+Type=Application
+StartupNotify=true
+MimeType=image/srt;image/subtitld
+Keywords=자막;subtitle;mov;영상;비디오;편집;
