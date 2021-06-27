@@ -7,7 +7,14 @@ Standards-Version: 3.9.5
 
 Package: subtitld
 Architecture: all
-Depends: ffmpeg,
-         libmpv1
+Depends: 
+         ffmpeg,
+         libmpv1,
+         python3-opencv,
+         libpython3-dbg, 
+         libpython3.8-dbg, 
+         python3-dbg, 
+         python3-pyqt5-dbg, 
+         python3-pyqt5.qtopengl
 Description: Subtitle Editor
  영상의 자막을 편집하는 프로그램.
